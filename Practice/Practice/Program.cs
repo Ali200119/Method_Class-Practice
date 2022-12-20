@@ -39,6 +39,29 @@
 
 #region Task2
 
+//GetFilteredOrders(200, DateTime.Now);
 
+//static Order[] GetOrders()
+//{
+//    Order order1 = new Order(400, DateTime.Now);
+//    Order order2 = new Order(100, new DateTime(2022, 08, 10));
+//    Order order3 = new Order(500, new DateTime(2022, 12, 28));
+//    Order order4 = new Order(700, new DateTime(2023, 04, 02));
+
+//    return new Order[] { order1, order2, order3, order4 };
+//}
+
+//static void GetFilteredOrders(int price, DateTime date)
+//{
+//    Order[] orders = GetOrders();
+
+//    foreach (Order order in orders)
+//    {
+//        if (order.Price > price && order.Date <= date.AddDays(1))
+//        {
+//            Console.WriteLine($"{order.Price} {order.Date}");
+//        }
+//    }
+//}
 
 #endregion
